@@ -12,8 +12,6 @@ module EmaAlgo
       apply_strategy
     end
 
-    private
-
     def apply_strategy
       if long?
         'long'
