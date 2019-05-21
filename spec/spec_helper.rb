@@ -1,6 +1,7 @@
 require "bundler/setup"
 require "ema_algo"
 require 'ema_algo/ema_version_1'
+require 'ema_algo/ema_version_2'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
