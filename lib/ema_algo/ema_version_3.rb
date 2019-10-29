@@ -5,7 +5,7 @@ module EmaAlgo
 
     def initialize(low_price:, high_price:, small_ema:, medium_ema:, long_ema:)
       @low_price, @high_price, @small_ema = low_price, high_price, small_ema
-      @medium_ema, @long_ema, @exit_ema = medium_ema, long_ema, exit_ema
+      @medium_ema, @long_ema = medium_ema, long_ema
     end
 
     def apply
