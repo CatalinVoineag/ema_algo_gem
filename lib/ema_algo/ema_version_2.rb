@@ -38,7 +38,9 @@ module EmaAlgo
 
     def exit_long?
       (exit_ema < medium_ema && high_price < medium_ema) ||
-        (exit_ema < long_ema && high_price < long_ema)
+        (exit_ema < long_ema && high_price < long_ema) ||
+        (exit_ema > medium_ema && high_price < medium_ema) ||
+        (exit_ema > long_ema && high_price < long_ema)
     end
 
     def exit_short?
